@@ -1,9 +1,6 @@
 # Twitter-Sentiment-Analysis-in-Python
 The objective of this task is to detect hate speech in tweets. Tweet contains negative/hate sentiments as well as positive sentiments. So, the task is to classify negative tweets from other tweets.  Given a training sample of tweets and labels, where label '0' denotes the tweet is negative and label '1' denotes the tweet is not negative. The objective is to predict the labels on the test dataset.   
 
-![alt text](https://github.com/shreyaswankhede/Twitter-Sentiment-Analysis-in-Python/blob/master/twitter.PNG
- "Correlation between features")
-
 
 # Sentiment Analysis:
 
@@ -21,10 +18,6 @@ The objective of this task is to detect hate speech in tweets. Tweet contains ne
 
 * Stemming
 
-# WordCloud
-
-![alt text](https://github.com/shreyaswankhede/Twitter-Sentiment-Analysis-in-Python/blob/master/wordcloud.PNG
- "Correlation between features")
 
 # Feature Extraction:
 <br> 1. Bag Of Words
@@ -41,5 +34,5 @@ The objective of this task is to detect hate speech in tweets. Tweet contains ne
 
 <br>Thank You!	
 <p><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/shreyaswankhede" aria-label="Follow @shreyaswankhede on GitHub">Follow @shreyaswankhede</a>
+<a class="github-button" href="https://github.com/KatrojuSaiChaitanya" aria-label="Follow @KatrojuSaiChaitanya on GitHub">Follow @KatrojuSaiChaitanya</a>
 
