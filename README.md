@@ -1,38 +1,24 @@
-# Twitter-Sentiment-Analysis-in-Python
-The objective of this task is to detect hate speech in tweets. Tweet contains negative/hate sentiments as well as positive sentiments. So, the task is to classify negative tweets from other tweets.  Given a training sample of tweets and labels, where label '0' denotes the tweet is negative and label '1' denotes the tweet is not negative. The objective is to predict the labels on the test dataset.   
+# Determine Feelings on Twitter
+The aim of the project is to determine how people are feeling when they share something on Twitter. The program classifies only Turkish tweets.
 
+> Check out NodeJS web application [here](https://twitter-sentiment-analysis.now.sh/)
 
-# Sentiment Analysis:
+> Slides - [NLTK version](https://slides.com/mertkahyaoglu/twitter-sentiment-analysis), [Weka version ](http://slides.com/mertkahyaoglu/twitter-sentiment-analysis-4)
 
-* Sentiment analysis and Opinion mining is the computational study of User opinion to analyze the social, psychological, philosophical, behavior and perception of an individual person or a group of people about a product, policy, services and specific situations using Machine learning technique. Sentiment analysis is an important research area that identifies the people’s sentiment underlying a text and helps in decision making about the product.
+##Requirements
 
+1. [Twitter Developer Application](https://apps.twitter.com/app/new)
+2. [Tweepy Python Library](http://www.tweepy.org/)
+3. [NLTK](http://www.nltk.org/)
 
-<h2> Steps </h2>
-<br>1. Data loading.
-<br>2. Checking Distribution of Data.
-<br>3. Data Preprocessing
+##Run
 
-* Remove Punctuations,special symbols and special characters.
+`python classify.py`
 
-* Tokenization
+##Project Development Steps
 
-* Stemming
-
-
-# Feature Extraction:
-<br> 1. Bag Of Words
-<br> 2. TF-IDF
-<br> 3. Word2Vec
-
-# Model Building:
-<br> Building Logistic Regression and Support Vector Machine (SVM) on BOW, TF-IDF & Word2Vec features.
-
-# Results:
-<br> Logistic Regression and SVM on Word2Vec features outperforms the other model.
-
-
-
-<br>Thank You!	
-<p><!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/KatrojuSaiChaitanya" aria-label="Follow @KatrojuSaiChaitanya on GitHub">Follow @KatrojuSaiChaitanya</a>
-
+* Fetch tweets for a specific user :white_check_mark:
+* Clean data (remove hashtags and mentioned users) :white_check_mark:
+* Label positive and negative tweets :white_check_mark:
+* Apply Naive Bayes Classifier algorithm :white_check_mark:
+* Test results :white_check_mark:
