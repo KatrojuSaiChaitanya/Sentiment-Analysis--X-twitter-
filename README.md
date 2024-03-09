@@ -1,4 +1,4 @@
-# Determine Feelings on Twitter
+# Sentiment Analysis on Twitter
 The aim of the project is to determine how people are feeling when they share something on Twitter. The program classifies only Turkish tweets.
 
 ## Requirements
